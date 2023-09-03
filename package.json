@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.2.2",
+    "vite-plugin-vue-setup-extend": "^0.4.0",
     "vue": "^3.2.36"
   },
   "dependencies": {
