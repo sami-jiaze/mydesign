@@ -1,0 +1,93 @@
+@use './mixins/mixins.scss' as *;
+
+@font-face {
+  font-family: "my-design-icons"; /* Project id 4235678 */
+  src: url('./fonts/iconfont.woff2?t=1693754934408') format('woff2'),
+       url('./fonts/iconfont.woff?t=1693754934408') format('woff'),
+       url('./fonts/iconfont.ttf?t=1693754934408') format('truetype');
+}
+
+[class^="#{$namespace}-icon-"],[class*='#{$namespace}-icon-'] {
+  font-family: "my-design-icons" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-ui-icons {
+  font-family: "my-design-icons" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$namespace}-icon-lock-outlined:before {
+  content: "\e64c";
+}
+
+.#{$namespace}-icon-unlock-outlined:before {
+  content: "\e64d";
+}
+
+.#{$namespace}-icon-eye-open-outlined:before {
+  content: "\e655";
+}
+
+.#{$namespace}-icon-eye-close-outlined:before {
+  content: "\e656";
+}
+
+.#{$namespace}-icon-notice-outlined:before {
+  content: "\e65a";
+}
+
+.#{$namespace}-icon-bulb-outlined:before {
+  content: "\e65c";
+}
+
+.#{$namespace}-icon-collect-outlined:before {
+  content: "\e65e";
+}
+
+.#{$namespace}-icon-like-outlined:before {
+  content: "\e65f";
+}
+
+.#{$namespace}-icon-set-outlined:before {
+  content: "\e662";
+}
+
+.#{$namespace}-icon-mail-outlined:before {
+  content: "\e663";
+}
+
+.#{$namespace}-icon-phone-outlined:before {
+  content: "\e66d";
+}
+
+.#{$namespace}-icon-lightning-outlined:before {
+  content: "\e66f";
+}
+
+.#{$namespace}-icon-architecture-outlined:before {
+  content: "\e670";
+}
+
+.#{$namespace}-icon-application-outlined:before {
+  content: "\e67a";
+}
+
+.#{$namespace}-icon-bank-outlined:before {
+  content: "\e688";
+}
+
+.#{$namespace}-icon-key-outlined:before {
+  content: "\e68b";
+}
+
+.#{$namespace}-icon-skin-outlined:before {
+  content: "\e68c";
+}
+
