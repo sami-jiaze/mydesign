@@ -1,0 +1,22 @@
+{
+  "name": "mydesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C play dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite-plugin-vue-setup-extend": "^0.4.0",
+    "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@mydesign/components": "workspace:^",
+    "@mydesign/theme-chalk": "workspace:^",
+    "@mydesign/utils": "workspace:^"
+  }
+}
